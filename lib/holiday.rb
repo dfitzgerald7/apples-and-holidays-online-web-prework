@@ -94,7 +94,7 @@ def all_supplies_in_holidays(holiday_hash)
       #binding.pry
       puts holiday_string
     end 
-    holiday_string[0...-1]
+    #holiday_string[0...-1]
   end 
 
 end
