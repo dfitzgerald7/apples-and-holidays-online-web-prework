@@ -89,9 +89,7 @@ def all_supplies_in_holidays(holiday_hash)
     holidays.each do |holiday, supplies|
       holiday_string = ""
       holiday_string += " #{holiday.to_s.capitalize}: "
-      supplies.each do |supply|
-        holiday_string += supply.capitalize + ","
-      end 
+      
     end 
     holiday_string[0...-1]
   end 
