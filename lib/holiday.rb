@@ -92,6 +92,7 @@ def all_supplies_in_holidays(holiday_hash)
       
       holiday_string += supplies.join(", ")
       #binding.pry
+      puts holiday_string
     end 
     holiday_string[0...-1]
   end 
