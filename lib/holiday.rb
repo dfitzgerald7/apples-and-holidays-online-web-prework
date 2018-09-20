@@ -90,7 +90,7 @@ def all_supplies_in_holidays(holiday_hash)
       holiday_string = ""
       holiday_string += " #{holiday.to_s.capitalize}: "
       binding.pry
-      
+      holiday_string.join(", ")
     end 
     holiday_string[0...-1]
   end 
